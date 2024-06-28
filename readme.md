@@ -50,18 +50,8 @@ The TypeSpec and generated API specification for the Azure Communication Chat Co
    npx tsp compile .
    ```
 
-7. To re-generate examples, download and install the [OAV
-   tool](https://github.com/Azure/oav) and run it: note: This directory is taken
-   from [azure-rest-api-specs](https://github.com/Azure/azure-rest-api-specs),
-   and the following commands should be run from there.
-
-   ```console
-   npm install -g oav@latest
-   oav generate-examples <path to communicationservicesmessages.json>
-   ```
-
 ## Testing and Viewing API as an Interface
 
 1. Visit the official [Swagger Editor](https://editor.swagger.io/).
 
-2. Copy the generated Swagger from `communicationservicesmessages.json` and paste it into the editor.
+2. Copy the generated Swagger and paste it into the editor.
